@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+    <module name="com.rameses.osiris2.nb" spec="1.0"/>
+    <instanceof class="com.rameses.osiris2.nb.bootstrap.NBBootStrapTopComponent"/>
+    <instanceof class="com.rameses.osiris2.nb.windows.StartupWindow"/>
+    <instanceof class="java.awt.Component"/>
+    <instanceof class="java.awt.Container"/>
+    <instanceof class="java.awt.MenuContainer"/>
+    <instanceof class="java.awt.image.ImageObserver"/>
+    <instanceof class="java.io.Externalizable"/>
+    <instanceof class="java.io.Serializable"/>
+    <instanceof class="java.lang.Object"/>
+    <instanceof class="javax.accessibility.Accessible"/>
+    <instanceof class="javax.swing.JComponent"/>
+    <instanceof class="org.openide.util.HelpCtx$Provider"/>
+    <instanceof class="org.openide.util.Lookup$Provider"/>
+    <instanceof class="org.openide.windows.TopComponent"/>
+    <serialdata class="com.rameses.osiris2.nb.bootstrap.NBBootStrapTopComponent">
+        ACED000573720049636F6D2E72616D657365732E6F7369726973322E6E622E626F6F7473747261702E4E42426F6F74537472
+        6170546F70436F6D706F6E656E74245265736F6C7661626C6548656C70657200000000000000010200007870
+    </serialdata>
+</settings>

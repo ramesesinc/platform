@@ -1,0 +1,17 @@
+<% 
+	def folderid = (OPTIONS.folderid) ? OPTIONS.folderid : '/ext' ;
+	def items = ANUBIS.getFolder(folderid).children  
+	def style = OPTIONS.style ? OPTIONS.style : 'vertical'
+    def result = ANUBIS.getTemplate('extbar/'+style, items, null, OPTIONS );
+    if( !result ) {
+		result = ANUBIS.getTemplate('extbar/vertical', items, null, OPTIONS );
+    }
+%>
+
+<script>
+<%items.each{ %>
+\$register( {id: '${it.name}', page: '${it.path}', context: '${it.context}', title:"${it.title}", options: ${ com.rameses.anubis.JsonUtil.toString(it.options)}});
+<%}%>
+</script>
+${result}
+	

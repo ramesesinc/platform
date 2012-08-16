@@ -1,0 +1,12 @@
+2027172501690
+Line above is identifying hash key, do not edit!
+Below is metadata about layer cache, for debugging purposes.
+org.netbeans.core.startup.layers.BinaryCacheManager
+Thu Dec 07 13:37:37 CST 2006	jar:file:/C:/Program%20Files%20(x86)/netbeans-5.5/platform6/modules/org-jdesktop-layout.jar!/org/netbeans/libs/layoutext/layer.xml
+Thu Dec 07 13:37:37 CST 2006	jar:file:/C:/Program%20Files%20(x86)/netbeans-5.5/platform6/modules/org-netbeans-api-progress.jar!/org/netbeans/progress/module/resources/layer.xml
+Thu Dec 07 13:37:37 CST 2006	jar:file:/C:/Program%20Files%20(x86)/netbeans-5.5/platform6/modules/org-netbeans-core-ui.jar!/org/netbeans/core/ui/resources/layer.xml
+Thu Dec 07 13:37:37 CST 2006	jar:file:/C:/Program%20Files%20(x86)/netbeans-5.5/platform6/modules/org-netbeans-core-windows.jar!/org/netbeans/core/windows/resources/layer.xml
+Thu Dec 07 13:37:37 CST 2006	jar:file:/C:/Program%20Files%20(x86)/netbeans-5.5/platform6/modules/org-netbeans-core.jar!/org/netbeans/core/resources/mf-layer.xml
+Thu Dec 07 13:37:37 CST 2006	jar:file:/C:/Program%20Files%20(x86)/netbeans-5.5/platform6/modules/org-netbeans-modules-autoupdate.jar!/org/netbeans/modules/autoupdate/resources/mf-layer.xml
+Thu Dec 07 13:37:37 CST 2006	jar:file:/C:/Program%20Files%20(x86)/netbeans-5.5/platform6/modules/org-netbeans-modules-settings.jar!/org/netbeans/modules/settings/resources/mf-layer.xml
+Wed Aug 15 16:52:26 CST 2012	jar:file:/D:/NB%20Projects/etracs2.1/etracsplatform/build/cluster/modules/com-rameses-osiris2-nb.jar!/com/rameses/osiris2/nb/layer.xml

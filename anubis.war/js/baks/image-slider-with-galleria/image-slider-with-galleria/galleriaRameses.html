@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="js/lib/css/jquery-ui/jquery.css"/>
+		<link type="text/css" rel="stylesheet" href="js/lib/css/rameses-lib.css"/>
+		
+		<style type="text/css">
+			#slider{
+				margin: 0px auto 0px auto;
+				width: 800px;
+				height: 500px; }
+			
+			body{
+				margin: 0px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+				font-size: 10px; }
+			
+			body> div:first-child{
+				padding-top: 2em;
+				width: 100%;
+				z-index: 2;}
+			#slider-content-background{
+				width: inherit;
+				height: 180px;
+				position: absolute;
+				top: 300px;
+				z-index: 2;
+				background: #FFFF00;
+				opacity: 0.3;}
+			#slider-content {
+				height: 180px;
+				width: 450px;
+				position: absolute;
+				background: #FFFF00;
+				opacity: 0.8;
+				top: 300px;
+				left: 18%;
+				z-index: 4; }
+			#slider-button-handler {
+				width: 800px;
+				margin: 0px auto 0px auto;
+				position: relative;
+				bottom: 30px; }
+		</style>
+		
+		
+		<script type="text/javascript" src="js/lib/jquery-all.js"></script>
+		<script type="text/javascript" src="js/lib/rameses-ext-lib.js"></script>
+		<script type="text/javascript" src="js/lib/rameses-ui.js"></script>
+		<script type="text/javascript" src="js/lib/rameses-proxy.js"></script>		
+		
+		
+		<link type="text/css" rel="stylesheet" href="js/ext/slider-theme-carousel/default.css"/>
+		<script type="text/javascript" src="js/ext/slider-theme-carousel/default.js"></script>
+		
+		<script type="text/javascript">
+			$put("sampleCtx",
+				new function() {
+					var self = this;
+					this.curImageData;
+					
+					this.sliderModel = {
+						options: {
+							imageCrop: true,
+							keepSource: true,
+							transition: "fadeslide",
+							transitionSpeed: 1000
+						},
+						imageChange: function(data) {
+							self.curImageData = data;
+						},
+						fetchList: function() {
+							return [
+								{image: "images/big1.jpg", thumb: "images/thumb1.jpg", title: "Title of Image 1", description: "Description of Image 1", layer: '<div><h2>Locomotives Roundhouse</h2><p>A description with <em>html</em>.</p></div>'},
+								{image: "images/big2.jpg", thumb: "images/thumb2.jpg", title: "Title of Image 2", description: "Description of Image 2"},
+								{image: "images/big3.jpg", thumb: "images/thumb3.jpg", title: "Title of Image 3", description: "Description of Image 3"},
+								{image: "images/big4.jpg", thumb: "images/thumb4.jpg", title: "Title of Image 4", description: "Description of Image 4"},
+								{image: "images/big5.jpg", thumb: "images/thumb5.jpg", title: "Title of Image 5", description: "Description of Image 5"},
+								{image: "images/big6.jpg", thumb: "images/thumb6.jpg", title: "Title of Image 6", description: "Description of Image 6"},
+								{iframe: "pages/captions.html"},
+								{iframe: "pages/features.html"},
+								{iframe: "pages/overflow.html"},
+							];
+						}
+					};
+				}
+			);
+		</script>
+		
+	</head>
+	<body>
+		<div>
+			<div r:context="sampleCtx" r:type="slider" r:model="sliderModel" id="slider"></div>
+			<div id="slider-content-background"></div>
+			<div id="slider-content">
+				<table>
+					<tr>
+						<td>image:</td>
+						<td><label r:context="sampleCtx" r:name="curImageData.image"/></td>
+					</tr>
+					<tr>
+						<td>title:</td>
+						<td><label r:context="sampleCtx" r:name="curImageData.title"/></td>
+					</tr>
+					<tr>
+						<td>description:</td>
+						<td><label r:context="sampleCtx" r:name="curImageData.description"/></td>
+					</tr>
+				</table>
+			</div>
+			<div id="slider-button-handler">
+				<button r:context="sampleCtx" r:name="sliderModel.start">Play</button>
+				<button r:context="sampleCtx" r:name="sliderModel.pause">Pause</button>
+				<button r:context="sampleCtx" r:name="sliderModel.prev">Prev</button>
+				<button r:context="sampleCtx" r:name="sliderModel.next">Next</button>
+				<button r:context="sampleCtx" r:name="sliderModel.openLightBox">Open Light Box</button>
+				<button r:context="sampleCtx" r:name="sliderModel.enterFullScreen">Full Screen</button>
+			</div>
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

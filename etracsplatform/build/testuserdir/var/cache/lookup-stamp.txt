@@ -1,0 +1,11 @@
+-233906506413
+Line above is identifying hash key, do not edit!
+Below is metadata about folder lookup cache, for debugging purposes.
+Thu Dec 07 13:37:37 CST 2006	C:\Program Files (x86)\netbeans-5.5\platform6\modules\org-jdesktop-layout.jar
+Thu Dec 07 13:37:37 CST 2006	C:\Program Files (x86)\netbeans-5.5\platform6\modules\org-netbeans-api-progress.jar
+Thu Dec 07 13:37:37 CST 2006	C:\Program Files (x86)\netbeans-5.5\platform6\modules\org-netbeans-core-ui.jar
+Thu Dec 07 13:37:37 CST 2006	C:\Program Files (x86)\netbeans-5.5\platform6\modules\org-netbeans-core-windows.jar
+Thu Dec 07 13:37:37 CST 2006	C:\Program Files (x86)\netbeans-5.5\platform6\modules\org-netbeans-core.jar
+Thu Dec 07 13:37:37 CST 2006	C:\Program Files (x86)\netbeans-5.5\platform6\modules\org-netbeans-modules-autoupdate.jar
+Thu Dec 07 13:37:37 CST 2006	C:\Program Files (x86)\netbeans-5.5\platform6\modules\org-netbeans-modules-settings.jar
+Wed Aug 15 16:52:26 CST 2012	D:\NB Projects\etracs2.1\etracsplatform\build\cluster\modules\com-rameses-osiris2-nb.jar
